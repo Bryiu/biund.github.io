@@ -1,0 +1,28 @@
+.content {
+   margin: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container {
+height: 150px;
+width: 150px;
+float: left;
+margin: 70px;
+}
+
+#pic {
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+.banner {
+    height: 50px;
+    width: 190px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    top: -100px;
+}

@@ -1,0 +1,29 @@
+.content{
+    background-color: #ffffff;
+    width: 960px;
+    height: 700px;
+    margin: 200px auto;
+    padding: 40px;
+    text-align: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+#name{
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#email {
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#subject{
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+button{
+    height: 70px;
+    width: 140px;
+    background-color: #ffffff;
+    color: #666666;
+    border: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
