@@ -1,0 +1,126 @@
+/* Navbar */
+.navbar-brand {
+background-color: #4aaaa5;
+width: 215px;
+position: relative;
+text-align: center;
+vertical-align: 0%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 30px;
+margin-left: -50px;
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    align-items: none;
+    padding: 0 0 0 150px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 0%;
+}
+
+.navbar-collapse{
+    background-color: #ffffff;
+    height: 100%;
+    margin: 45%;
+    padding: 0;
+    border: 0;
+    width: 1px;
+}
+
+.navbar-nav{
+  margin: 150 50 0 50px;
+}
+
+.nav-link{
+    color: #777777;
+}
+
+/* End Navbar */
+/* Start body */
+.body{
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    background-image: url(../images/back.png);
+}
+
+.container{
+    background-image: url(../images/back.png);
+    width: 100%;
+    padding: 120px;
+    margin: 0px;
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+
+
+}
+
+.row1{
+    height: 100px;
+    background-color:#ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+    margin-left: -17px;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.row2{
+    background-color: #ffffff;
+    border-top-width: 10px;
+    padding: 40px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h2{
+
+    color: #4aaaa5;
+    height: 50px;
+    border-bottom: 5px;
+    border-bottom-width: 10px;
+    border-bottom-color: black;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+#text{
+    line-height: 22.5pt;
+}
+
+#me{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+
+}
+/* End Body */
+
+
+/* Start Footer */
+footer{
+background-color: #777777;
+position: absolute;
+top: 100%;
+height: 50px;
+text-align: center;
+color: #ffffff;
+width: 100%;
+margin: 0px;
+z-index: 2;
+border-top-width: 5px;
+border-top-style: solid;
+border-top-color: #4aaaa5;
+z-index: 1;
+left: 0%;
+}
+/* End Footer */
