@@ -1,6 +1,7 @@
 var ysp = document.getElementById("ysp");
 var gp = document.getElementById("gp");
 var cc = document.getElementById("cc");
+tank=[];
 
 gp.addEventListener("click", function makeid(length){
 var charachterLength = parseInt(prompt("How many charachters would you like in your password?"));
@@ -10,30 +11,38 @@ var charachterLength = parseInt(prompt("How many charachters would you like in y
         alert("Selection too high");}   
     else((charachterLength));   
         
-
-var special = confirm("Would you like special charachters?");
-if (special=true) {
-   tank.push('"',"!","#","$","%","&","'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","\\","]","^","_","`","{","|","}","~");
+    function name(tank){
+confirm("Would you like special charachters?");
+if (confirm = true){
+    var special = ('"',"!","#","$","%","&","'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","\\","]","^","_","`","{","|","}","~");
+    console.log(special);
 }
     else {false};
-    
-var numeric = confirm("Would you like numeric characters?");
-    if (true){
-    tank.push("0","1","2","3","4","5","6","7","8","9");
+}
+    function numeric1(tank){
+confirm("Would you like numeric characters?");
+    if (confirm=true){
+    var numeric =("0","1","2","3","4","5","6","7","8","9");
        }
     else{};
-
-var lowerCase = confirm("Would you like lowercase charachters?");
+    console.log(numeric);
+    }
+function lowerCase(tank){
+confirm("Would you like lowercase charachters?");
     if (true){
-    tank.push("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z");
+    var lowerCase = ("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z");
     }
     else{};
-
-var capital = confirm("Would you like capital charachters?");
+console.log(lowerCase);
+} 
+function capital1(tank){
+confirm("Would you like capital charachters?");
     if (true){
-        tank.push("A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
+    var capital =("A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
     }
     else{};
+    console.log(capital);
+}
 });
 
 
