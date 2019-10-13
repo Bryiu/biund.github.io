@@ -53,6 +53,14 @@ reset.addEventListener("click", function toReset(){
     ysp.innerHTML = password;
 });
 
+cc.addEventListener("click", function clipboard(){
+    var password = document.querySelector("cc");
+    password.select();
+    document.execCommand("Copy");
+    alert("Your password ="+ password.value + "was copied to clipboard");
+    clipboard();
+});
+
 //to fill an empty array with numbers
 // var arr = new Array();
 // arr.push('value1');
