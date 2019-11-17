@@ -1,0 +1,80 @@
+body{
+    background-color: cornflowerblue;
+    
+}
+.container{
+    background-color: darkgray;
+    border-radius: 5px;
+}
+.bio{
+    background-color: darkkhaki;
+    border-radius: 5px;
+}
+.profileImage{
+    height: 300px;
+    width: 300px;
+    background-color: lightseagreen;
+    margin-left: 38%;
+    border-radius: 5px;
+}
+h1{
+    margin-left: 50%;
+    margin-top: 8px;
+}
+#userName{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.location{
+    background-color: darkkhaki;
+    margin: 10px;
+    border-radius: 5px;
+}
+.github{
+    background-color: darkkhaki;
+    margin: 10px;
+    border-radius: 5px;
+}
+.blog{
+    background-color: darkkhaki;
+    margin: 10px;
+    border-radius: 5px;
+}
+.repo{
+    background-color: darkkhaki;
+    margin: 10px;
+    height: 200px;
+    text-align: center;
+    font-size: 36pt;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.followers{
+    background-color: darkkhaki;
+    margin: 10px;
+    height: 200px;
+    text-align: center;
+    font-size: 36pt;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.stars{
+    background-color: darkkhaki;
+    margin: 10px;
+    height: 200px;
+    text-align: center;
+    font-size: 36pt;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.following{
+    background-color: darkkhaki;
+    margin: 10px;
+    height: 200px;
+    text-align: center;
+    font-size: 36pt;
+    font-weight: 700;
+    border-radius: 5px;
+}
