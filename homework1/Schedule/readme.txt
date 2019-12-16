@@ -1,4 +1,2 @@
-This is a scheduler that will display different colors depending on the time
-
-When you put in the text and click on the lock it will save the content placed in the 
-text box.
+This is a web app that the user is able to input an agenda and there is a time tracker that will
+change color with the time of day.
