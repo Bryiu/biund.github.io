@@ -36,7 +36,6 @@ inquirer
     }
 ])
 .then(function (answers) {
-    //["Manager", "Engineer", "Intern", "Employee"],
     if (answers.typeEmployee == "Manager") {
         class Manager {
             constructor() {
@@ -163,13 +162,27 @@ inquirer
     }
 
     if (answers.complete == "y") {
+        var div = "<div>";
+        
+
         // join array of objects HTML in one html string. ie: htmlString 
         // fs.read the main.html (template)
         // replace the {{ contents }} handlebar WITH htmlString
         // fs.write new team.html with htmlString
     }
-    else if all other 
+    
 })
+
+
+
+
+
+
+
+
+
+
+
 
 
 // class Employee {
