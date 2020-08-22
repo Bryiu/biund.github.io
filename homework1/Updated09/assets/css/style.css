@@ -1,8 +1,9 @@
-body, html {
-    height: 100%;
+body {
+    
     background-color: black;
-    padding-left: 0%;
-    width: 1900px;
+    background-image: url('smoke.jpg');
+    background-size: 40px;
+
 }
 
 .row1 {
@@ -10,17 +11,6 @@ body, html {
     padding: 0px;
     margin-left: 0%;
     margin-right: 0%;
-}
-
-#backgroundImage {
-    height: 100%;
-    z-index: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    left: 0%;
-    top: 0%;
-    margin-left: 0%;
 }
 
 .nav-link {
@@ -51,26 +41,14 @@ body, html {
     padding-right: 0%;
 }
 
-.collapse {}
-
-.navbar-brand {
-    margin-right: 42%;
+.row2{
+    padding: 20px;
 }
 
 h1 {
     color: gold;
     font-size: 48pt;
-    margin-right: 50%;
-    margin-top: 10px;
     font-family: 'Playball', cursive;
-    background-color: transparent;
-    width: 280px;
-}
-
-.container {
-    margin-left: 0%;
-    margin-right: 0%;
-    width: 100%;
 }
 
 .pic {
@@ -96,6 +74,7 @@ h1 {
     border-color: whitesmoke;
     border-style: solid;
     border-width: 1px;
+    margin-top: 15px;
 }
 
 #email {
@@ -105,6 +84,8 @@ h1 {
     border-color: whitesmoke;
     border-style: solid;
     border-width: 1px;
+    margin-top: 15px;
+
 }
 
 #subject {
@@ -114,6 +95,16 @@ h1 {
     border-color: whitesmoke;
     border-style: solid;
     border-width: 1px;
+    margin-top: 15px;
+    height: 200px;
+
+}
+
+.label1 {
+}
+
+.label {
+    margin-top: 40px;
 }
 
 #submit {
@@ -149,7 +140,6 @@ h1 {
 h2 {
     font-family: 'Playball', cursive;
     color: whitesmoke;
-    margin-left: 50%;
 }
 
 .container1 {
@@ -157,6 +147,7 @@ h2 {
     width: 220px;
     margin: 10px;
     position: relative;
+    z-index: 1;
 }
 
 .container2 {
@@ -167,5 +158,3 @@ h2 {
     right: -300px;
     top: -260px;
 }
-
-#label {}
